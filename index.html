@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exposición: Redes Alámbricas</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Redes Alámbricas</h1>
+        <p>Estabilidad, Velocidad y Seguridad en la Conexión</p>
+    </header>
+
+    <nav>
+        <button onclick="mostrarSeccion('intro')">Introducción</button>
+        <button onclick="mostrarSeccion('que-es')">¿Qué son?</button>
+        <button onclick="mostrarSeccion('construccion')">Construcción</button>
+        <button onclick="mostrarSeccion('tecnico')">Requerimientos</button>
+        <button onclick="mostrarSeccion('seguridad')">Seguridad</button>
+        <button onclick="mostrarSeccion('tips')">Tips</button>
+    </nav>
+
+    <main id="contenido">
+        
+        <section id="intro" class="seccion activa">
+            <h2>Introducción</h2>
+            <p>Una red alámbrica es un sistema de conexión que permite la comunicación y transferencia de datos entre diferentes dispositivos mediante cables, como el cable Ethernet. Este tipo de red es ampliamente utilizado en hogares, escuelas, oficinas y empresas debido a su estabilidad, velocidad y seguridad en la transmisión de información. A diferencia de las redes inalámbricas, las redes alámbricas ofrecen una conexión más confiable y con menos interferencias, lo que las hace ideales para actividades que requieren un alto rendimiento, como videoconferencias, videojuegos en línea y transferencia de archivos. En esta página conocerás qué es una red alámbrica, cómo funciona, los materiales necesarios para construirla y las ventajas que ofrece en el mundo de la tecnología y las comunicaciones.</p>
+            <div class="highlight">📍 <strong>Puntos clave:</strong> Estabilidad, Velocidad y Seguridad.</div>
+        </section>
+
+        <section id="que-es" class="seccion">
+            <h2>¿Qué son las redes alámbricas?</h2>
+            <div class="video-local-container">
+                <video controls>
+                    <source src="6.mp4" type="video/mp4">
+                </video>
+            </div>
+            <p>Son sistemas de comunicación que interconectan computadoras y otros dispositivos mediante cables físicos, como Ethernet de par trenzado o fibra óptica, para transmitir datos en forma de señales eléctricas o pulsos de luz.</p>
+            <ul>
+                <li><strong>Mayor velocidad:</strong> Transmisión sin retrasos.</li>
+                <li><strong>Menor interferencia:</strong> Sin pérdida por muros.</li>
+                <li><strong>Seguridad:</strong> Difíciles de interceptar.</li>
+            </ul>
+        </section>
+
+        <section id="construccion" class="seccion">
+            <h2>¿Cómo se construyen?</h2>
+            <div class="video-local-container">
+                <video controls>
+                    <source src="4.mp4" type="video/mp4">
+                </video>
+            </div>
+            <ol>
+            <p>Construcción de una red alámbrica
+
+La construcción de una red alámbrica consiste en instalar y conectar dispositivos mediante cables para permitir la comunicación y el intercambio de información entre computadoras y otros equipos. Este tipo de red se utiliza en hogares, escuelas, oficinas y empresas debido a que ofrece una conexión rápida, estable y segura.
+
+Materiales y dispositivos necesarios
+
+Para construir una red alámbrica se necesitan varios componentes importantes:
+
+Cable Ethernet (UTP): Es el medio principal por donde viajan los datos.
+
+Conectores RJ45: Se colocan en los extremos del cable para conectarlo a los dispositivos.
+
+Router o módem: Permite el acceso a internet y administra la red.
+
+Switch: Ayuda a conectar varios dispositivos en una misma red.
+
+Tarjetas de red: Permiten que las computadoras puedan conectarse a la red.
+
+Herramientas de instalación: Como ponchadora, tester y pelacables.
+
+
+                <li>Planear la red.</li>
+                <li>Instalar el cableado (UTP o Fibra).</li>
+                <li>Conectar a Switches mediante RJ45.</li>
+            </ol>
+        </section>
+
+        <section id="tecnico" class="seccion">
+            <h2>Requerimientos Técnicos</h2>
+            <div class="video-local-container">                                                        
+                <video controls>
+                    <source src="5.mp4" type="video/mp4">
+                </video>
+            </div>
+    <p>Haz clic en cada componente para conocer su función:</p>
+    
+    <div class="grid">
+        <div class="card-interactiva" onclick="mostrarInfo('info-router')">
+            <span>Router</span>
+            <div id="info-router" class="info-extra">
+                Es el cerebro de la red. Dirige el tráfico de datos y conecta tu red local a Internet.
+            </div>
+        </div>
+
+        <div class="card-interactiva" onclick="mostrarInfo('info-switch')">
+            <span>Switch</span>
+            <div id="info-switch" class="info-extra">
+                Permite conectar múltiples dispositivos en una misma red local, enviando los datos solo al destino correcto.
+            </div>
+        </div>
+
+        <div class="card-interactiva" onclick="mostrarInfo('info-tarjeta')">
+            <span>Tarjeta de Red</span>
+            <div id="info-tarjeta" class="info-extra">
+                Es el hardware interno de cada computadora que le permite conectarse físicamente al cable de red.
+            </div>
+        </div>
+
+        <div class="card-interactiva" onclick="mostrarInfo('info-cable')">
+            <span>Cableado</span>
+            <div id="info-cable" class="info-extra">
+                El medio físico (Ethernet o Fibra) por donde viajan los impulsos eléctricos o de luz con la información.
+            </div>
+        </div>
+    </div>
+</section>
+        </section>
+
+        <section id="seguridad" class="seccion">
+            <h2>Aspectos de Seguridad</h2>
+            <div class="video-local-container">
+                <video controls>
+                    <source src="3.mp4" type="video/mp4">
+                </video>
+            </div>
+            <P>Seguridad en una red alámbrica
+
+La seguridad en una red alámbrica es muy importante para proteger la información y evitar accesos no autorizados. Aunque este tipo de red es más segura que una red inalámbrica, también necesita medidas de protección para mantener un buen funcionamiento y evitar problemas.
+
+Medidas de seguridad principales
+
+<li>Uso de contraseñas seguras: El router y los dispositivos deben tener contraseñas difíciles de adivinar.</li>
+<li>Control de acceso: Solo las personas autorizadas deben poder conectarse a la red.</li>
+<li>Protección física de los cables: Los cables deben mantenerse protegidos y organizados para evitar daños o desconexiones.</li>
+<li>Uso de antivirus y firewall: Ayudan a proteger las computadoras contra virus y ataques informáticos.</li>
+<li>Actualización de equipos: Mantener actualizado el router y los sistemas operativos mejora la seguridad.</li>
+<li>Respaldo de información: Guardar copias de seguridad evita la pérdida de datos importantes.</li>
+
+            Medidas clave: Firewalls, restricción de accesos y protección física del cableado.</p>
+        </section>
+
+        <section id="tips" class="seccion">
+            <h2>Tips para una Red Eficiente</h2>
+            <div class="video-local-container">
+                <video controls>
+                    <source src="2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="tips-box">
+                <p>✅ Usa cables Categoría 6 o superior.</p>
+                <p>✅ Etiqueta y ordena tus cables.</p>
+                <p>✅ Evita dobleces dañinos.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Conclusión: Las redes alámbricas son el pilar de la conectividad de alta velocidad.</p>
+    </footer>
+
+    <script>
+        function mostrarSeccion(id) {
+            const secciones = document.querySelectorAll('.seccion');
+            secciones.forEach(s => {
+                s.classList.remove('activa');
+                // Pausar videos automáticamente al cambiar de pestaña
+                const video = s.querySelector('video');
+                if(video) video.pause();
+            });
+            document.getElementById(id).classList.add('activa');
+        }
+    </script>
+</body>
+</html>
+<script>
+    function mostrarSeccion(id) {
+        const secciones = document.querySelectorAll('.seccion');
+        secciones.forEach(s => {
+            s.classList.remove('activa');
+            const video = s.querySelector('video');
+            if(video) video.pause(); // Pausa videos al cambiar de sección
+        });
+        document.getElementById(id).classList.add('activa');
+    }
+
+    // Nueva función para mostrar la información al hacer clic
+    function mostrarInfo(id) {
+        const elemento = document.getElementById(id);
+        
+        // Si ya está abierto, lo cerramos
+        if (elemento.style.display === 'block') {
+            elemento.style.display = 'none';
+        } else {
+            // Cerramos cualquier otro que esté abierto primero
+            document.querySelectorAll('.info-extra').forEach(info => {
+                info.style.display = 'none';
+            });
+            // Abrimos el seleccionado
+            elemento.style.display = 'block';
+        }
+    }
+</script>
